@@ -89,7 +89,7 @@ int GetHumanMove(const int* board, const int Side){
     int moveOk = 0;
     int move = -1;
     while(moveOk==0){
-        printf("\nPlease enter a move form 1 to 9:\n");
+        printf("\nPlease enter a move from 1 to 9:\n");
         fgets(userInput, 3,stdin);
         fflush(stdin);
 
